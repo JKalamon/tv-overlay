@@ -1,0 +1,154 @@
+body{
+  /* background: url('/bg.jpg') !important; */
+  background: blue !important;
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+}
+
+.warning-overlay
+{
+  position: absolute;
+  left:0;
+  top: 10%;
+  height: 100px;
+  border-radius: 0 10px 10px 0;
+  color: white;
+  
+  font-size: 25px;
+  background: #981332;
+  display: flex;
+  padding-left: 40px;
+  padding-right: 40px;
+  align-items: center;
+  /* display: none; */
+}
+
+.warning-overlay .warning{
+  position: absolute;
+  top:10px;
+  font-size: 15px;
+  font-weight: 600;
+  display: inline-block;;
+}
+.warning-overlay img{
+filter: invert(1);
+    width: 57px;
+    margin-right: 20px;
+}
+.warning-overlay .content{
+  display: inline-block;
+  margin-right: 30px;
+}
+
+.warning-overlay .counter{
+  display: inline-block;
+  font-weight: 600;
+  font-size: 55px;
+}
+
+.tv-overlay-wrapper{
+  top: 68%;
+  position: relative;
+}
+
+.program{  
+  overflow: hidden;
+  border-radius: 0 10px 0 0;
+  position: relative;
+}
+
+.program img{
+  width: 100%;
+  margin-top: -50px;
+  border-radius: 0 10px 0 0;
+  position: relative;  
+}
+
+.program .hour{
+  color: white;
+  position: absolute;
+  top: 0px;
+  right: 15px;
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.program-title{
+  background: #73B1D3;
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 0px 20px;
+  text-align: right;
+  text-transform: uppercase;
+  border-radius: 0 0 10px 0;
+  font-family: 'Helvetica Inserat LT Std';
+}
+
+.program-title .color{
+  color: #ffce49;
+}
+
+.tv-label{
+  margin-top: 0px;
+    background: #981332;
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+    padding: 10px 20px;
+    text-align: right;
+    text-transform: uppercase;
+    border-radius: 0 10px 10px 0;
+  }
+
+  .main-label{    
+    background-color: #918B8B;
+    padding: 20px 30px;
+    border-radius: 10px 0 0 0;
+    font-weight: 600;
+    color :#fff;
+    text-transform: #fff;
+    line-height: 74px;
+    font-size: 50px;
+    text-transform: uppercase;
+  }
+
+  .main-label .small-text{
+    font-size: 40px;
+  }
+
+  .info-label{
+    background: #DF8A2D;
+    font-weight: 600;
+    color :#fff;
+    font-size: 30px;    
+  }
+
+  .info-label .info-1 {
+    display: inline-block;
+    margin-left: 30px;
+    margin-right: 700px;
+  }
+
+  .info-label .info-2 {
+    display: inline-block;
+  }
+
+  .small-news-label{    
+    background: #ffffff;
+    font-weight: 800;
+    color :#fff;
+    font-size: 33px;
+    line-height: 45px;
+    overflow: hidden;
+    height: 80px;
+    border-radius: 0 0 0 10px;
+    color: #5A142D;
+    padding: 20px 30px;    
+    
+  }
+
+  .small-news-label .small-text{
+    font-size: 23px;
+  }
